@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   img {
     width: 500px;
   }
@@ -52,6 +52,29 @@
     font-size: 16px;
     font-family: poppinslight;
     /*   margin-top: 25%; */
+  }
+
+  .mainImg {
+    display: flex;
+    align-items: center;
+    grid-area: mainImg;
+    margin: 500px 70px 0px -40px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 425px) {
+  img {
+    width: 100px;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "mainText"
+      "mainImg";
+    /* flex: 1 0 auto; */
   }
 
   .mainImg {
