@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: outfit;
+  src: url(./fonts/static/Outfit-VariableFont_wght.ttf);
+}
+
+.container {
+  background: hsl(212, 45%, 89%);
+  min-width: 100vh;
+  min-height: 100vh;
+  font-family: outfit;
+  display: grid;
+  place-content: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 14px;
+  margin-top: -20px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+.content {
+  display: grid;
+  place-content: center;
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+  border-radius: 25px;
+  background: hsl(0, 0%, 100%);
+  gap: 20px;
+}
+
+/* .image {
+  margin-top: -40px;
+  border: 2px solid red;
+  border-radius: 14px;
+} */
