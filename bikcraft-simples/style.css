@@ -90,6 +90,11 @@ ul li {
   right: -30px;
 }
 
+.introducao-cover img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .btnVerMais {
   background: #ee2211;
   border-radius: 4px;
@@ -155,4 +160,79 @@ ol {
   width: 100%;
   text-align: center;
   font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .conteudo-vantagens {
+    grid-template-columns: 1fr;
+  }
+
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 610px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .introducao::after {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    place-content: center;
+    padding: 30px 50px 30px 50px;
+  }
+
+  .menu {
+    display: flex;
+    place-content: center;
+    gap: 20px 20px 1px 20px;
+    flex-wrap: wrap;
+  }
+
+  .navBtn {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    font-size: 1rem;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 470px) {
+  .subtitulo {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .subtitulo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .subtitulo {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .subtitulo {
+    font-size: 2rem;
+  }
 }
