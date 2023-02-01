@@ -134,6 +134,11 @@ body {
   align-items: center;
   grid-area: mainImg;
   margin: 50px 70px 0px 0px;
+  transition: 0.7s;
+}
+
+.mainImg:hover {
+  margin-top: 20px;
 }
 
 img {
