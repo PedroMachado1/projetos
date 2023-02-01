@@ -173,6 +173,10 @@ ol {
 }
 
 @media (max-width: 610px) {
+  .container {
+    gap: 30px;
+  }
+
   .conteudo {
     grid-template-columns: 1fr;
   }
@@ -196,7 +200,7 @@ ol {
   .menu {
     display: flex;
     place-content: center;
-    gap: 20px 20px 1px 20px;
+    gap: 10px;
     flex-wrap: wrap;
   }
 
