@@ -27,6 +27,16 @@
   z-index: -1;
 }
 
+.introducao h1 span {
+  position: absolute;
+  border: 5px solid #701cda;
+  border-radius: 14px;
+  padding: 10px;
+  rotate: 10deg;
+  top: 180px;
+  left: 250px;
+}
+
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
@@ -35,6 +45,17 @@
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
+  }
+
+  .introducao h1 span {
+    position: absolute;
+    font-size: 2rem;
+    border: 5px solid #701cda;
+    border-radius: 14px;
+    padding: 10px;
+    rotate: 10deg;
+    top: 120px;
+    left: 150px;
   }
 }
 
@@ -52,6 +73,17 @@
     width: 30px;
     height: 10px;
     left: 0px;
+  }
+
+  .introducao h1 span {
+    position: absolute;
+    font-size: 1.5rem;
+    border: 3px solid #701cda;
+    border-radius: 14px;
+    padding: 10px;
+    rotate: 10deg;
+    top: 80px;
+    left: 100px;
   }
 }
 
