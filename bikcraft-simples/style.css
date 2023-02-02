@@ -202,6 +202,7 @@ ol {
     place-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .navBtn {
