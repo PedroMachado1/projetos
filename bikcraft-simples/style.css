@@ -4,10 +4,35 @@
   box-sizing: border-box;
 }
 
+:root {
+  --fundo: #e4e3e4;
+  --cor-primaria: #ffffff;
+  --cor-destaque: #ee2211;
+  --cor-nav: #000000;
+  --cor-hover: #8c0f11;
+  --cor-texto: #000000;
+  --cor-subtitulo: rgba(0, 0, 0, 0.2);
+  --onda: url("./img/onda-clara.svg");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #141414;
+    --cor-primaria: #0a0a0a;
+    --cor-destaque: #ee2211;
+    --cor-nav: #ffffff;
+    --cor-hover: #8c0f11;
+    --cor-texto: #ffffff;
+    --cor-subtitulo: rgba(255, 255, 255, 0.2);
+    --onda: url("./img/onda-escura.svg");
+  }
+}
+
 .container {
   min-width: 96vw;
   min-height: 100vh;
-  background-color: /* #273038 */ #e4e3e4;
+  background-color: var(--fundo);
+  color: var(--cor-texto);
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   gap: 60px;
@@ -43,10 +68,10 @@ ul li {
 }
 
 .navBtn {
-  background-color: #ffffff;
+  background-color: var(--cor-primaria);
   padding: 15px 30px;
   text-decoration: none;
-  color: black;
+  color: var(--cor-nav);
   border-radius: 4px;
   border: 2px solid transparent;
   transition: 0.3s;
@@ -54,7 +79,7 @@ ul li {
 }
 
 .navBtn:hover {
-  border-color: #ce2a23;
+  border-color: var(--cor-destaque);
   padding: 15px 30px;
 }
 
@@ -65,7 +90,7 @@ ul li {
 }
 
 .introducao {
-  background: #fff;
+  background: var(--cor-primaria);
   padding: 40px;
   text-align: right;
   position: relative;
@@ -83,7 +108,7 @@ ul li {
   content: "";
   width: 60px;
   height: 4px;
-  background: #ee2211;
+  background: var(--cor-destaque);
   display: inline-block;
   position: absolute;
   top: 30px;
@@ -96,7 +121,7 @@ ul li {
 }
 
 .btnVerMais {
-  background: #ee2211;
+  background: var(--cor-destaque);
   border-radius: 4px;
   padding: 15px 30px;
   text-decoration: none;
@@ -107,7 +132,7 @@ ul li {
 }
 
 .btnVerMais:hover {
-  background: #8c0f11;
+  background: var(--cor-hover);
 }
 
 .subtitulo {
@@ -116,15 +141,15 @@ ul li {
   text-align: right;
   font-size: 4rem;
   padding: 40px;
-  color: #c6c6c6;
+  color: var(--cor-subtitulo);
   text-transform: uppercase;
-  background-image: url("./img/onda.svg");
-  background-size: 450px;
+  background-image: var(--onda);
+  background-size: 397px;
 }
 
 .vantagens {
   padding: 40px;
-  background: #fff;
+  background: var(--cor-primaria);
 }
 
 ol {
@@ -132,7 +157,7 @@ ol {
 }
 
 .vantagens li:nth-child(odd) {
-  background: #e4e3e4;
+  background: var(--fundo);
 }
 
 .vantagens-item {
@@ -146,7 +171,7 @@ ol {
 }
 
 .vantagens-item:hover {
-  border-color: #ee2211;
+  border-color: var(--cor-destaque);
 }
 
 .vantagens-item p {
@@ -155,7 +180,7 @@ ol {
 }
 
 .footer {
-  background: #fff;
+  background: var(--cor-primaria);
   padding: 40px;
   width: 100%;
   text-align: center;
@@ -206,7 +231,7 @@ ol {
   }
 
   .navBtn {
-    background-color: #ffffff;
+    background-color: var(--cor-primaria);
     padding: 15px 30px;
     text-decoration: none;
     color: black;
