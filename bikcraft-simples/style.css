@@ -234,7 +234,7 @@ ol {
     background-color: var(--cor-primaria);
     padding: 15px 30px;
     text-decoration: none;
-    color: black;
+    color: var(--cor-texto);
     border-radius: 4px;
     border: 2px solid transparent;
     transition: 0.3s;
