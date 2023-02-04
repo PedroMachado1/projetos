@@ -1,0 +1,28 @@
+.imgFundo {
+  background-image: url(../images/fundoIntroducao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  margin: 50px 100px;
+  background: rgba(20, 20, 20, 0.7);
+  border-radius: 15px;
+}
+
+.introducao img {
+  margin: 20px 40px 20px 40px;
+  border-radius: 15px;
+}
+
+.introducao p {
+  display: flex;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  color: #ffffff;
+  align-items: center;
+  padding: 50px;
+}
