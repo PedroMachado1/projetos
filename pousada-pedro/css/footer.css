@@ -1,13 +1,15 @@
 .footer {
   background: #141414;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
   align-items: center;
+  justify-content: space-between;
   padding: 30px;
 }
 
 .footer img {
-  width: 85%;
+  width: 60%;
 }
 
 .contato {
@@ -16,4 +18,10 @@
   font-size: 1.2rem;
   font-family: "Poppins";
   line-height: 30px;
+}
+
+@media (max-width: 390px) {
+  .contato {
+    font-size: 0.9rem;
+  }
 }

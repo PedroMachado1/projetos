@@ -29,7 +29,7 @@
   font-family: "Poppins";
   font-size: 1.5rem;
   color: #ffffff;
-  margin: 50px;
+  padding: 0px;
   margin-left: 10px;
 }
 
@@ -47,5 +47,17 @@
 
   .introducao img {
     display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .introducao p {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .introducao p {
+    margin: 10px;
   }
 }

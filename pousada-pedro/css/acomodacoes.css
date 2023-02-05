@@ -13,7 +13,8 @@
 }
 
 .items {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   gap: 20px;
   margin-top: 25px;
@@ -75,4 +76,16 @@
 }
 
 @media (max-width: 590px) {
+  .items {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .item {
+    width: 50%;
+  }
+
+  .item {
+    width: 70%;
+  }
 }

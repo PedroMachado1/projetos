@@ -93,5 +93,30 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 590px) {
+  .lazer-items {
+    display: grid;
+    justify-content: center;
+  }
+
+  .lazer-items {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .lazer-item {
+    width: 50%;
+  }
+
+  .lazer {
+    background-position: center;
+  }
+
+  .lazer-titulo {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  .lazer-item {
+    width: 70%;
+  }
 }
