@@ -9,3 +9,5 @@ Landing-page1: https://pedromachado1.github.io/projetos/landing-page1/
 Qrcode-frontendmentor: https://pedromachado1.github.io/projetos/qr-code-component/
 
 Portfolio: https://pedromachado1.github.io/projetos/portfolio/
+
+Pousada-Pedro: https://pedromachado1.github.io/projetos/pousada-pedro/
