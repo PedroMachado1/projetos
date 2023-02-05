@@ -53,3 +53,21 @@ a {
 .header-menu a:hover {
   border-color: #ffffff;
 }
+
+@media (max-width: 1000px) {
+  .header-menu {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header-menu {
+    padding-left: 50px;
+  }
+}
