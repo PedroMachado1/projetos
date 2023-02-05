@@ -2,10 +2,12 @@
   padding: 25px 20px;
   margin: 0 auto;
   display: flex;
+  align-self: flex-start;
   align-items: center;
   justify-content: space-between;
   font-family: "Playfair Display";
   background: rgba(20, 20, 20, 0.705);
+  width: 100%;
 }
 
 .header-logo img,

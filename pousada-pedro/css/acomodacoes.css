@@ -1,11 +1,13 @@
 .acomodacoes {
   background: #cccccc;
-  height: 100vh;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 50px;
 }
 
 .acomodacoes-titulo {
   text-align: center;
-  padding: 40px;
   font-size: 2rem;
   font-family: "Playfair Display";
 }
@@ -50,4 +52,27 @@
   padding: 7px 30px;
   display: inline-block;
   border-radius: 15px;
+}
+
+@media (max-width: 1000px) {
+  .nomeCamp {
+    font-size: 1rem;
+  }
+
+  .itemTexto {
+    display: grid;
+    grid-template-columns: 1;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .btnVer {
+    padding: 7px 50px;
+  }
+}
+
+@media (max-width: 590px) {
 }

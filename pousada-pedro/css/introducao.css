@@ -2,35 +2,50 @@
   background-image: url(../images/fundoIntroducao.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
 .introducao {
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  margin: 80px auto;
+  display: flex;
   background: rgba(20, 20, 20, 0.7);
   border-radius: 15px;
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
+  align-items: center;
+  padding: 80px 1px;
 }
 
 .introducao img {
-  margin: 15px 40px 15px 20px;
-  border-radius: 15px;
+  border-radius: 45px;
+  padding: 30px;
+  width: 30%;
 }
 
 .introducao p {
-  display: flex;
   font-family: "Poppins";
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #ffffff;
-  align-items: center;
-  padding: 50px;
+  margin: 50px;
+  margin-left: 10px;
 }
 
 @media (max-width: 1000px) {
   .introducao p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao p {
+    margin: 20px 40px;
+    text-align: center;
+  }
+
+  .introducao img {
+    display: none;
   }
 }
