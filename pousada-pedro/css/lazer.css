@@ -1,0 +1,58 @@
+.lazer {
+  background-image: url(../images/fundoLazer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.lazer-titulo {
+  text-align: center;
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  padding: 40px;
+  background-color: rgba(20, 20, 20, 0.7);
+}
+
+.lazer-items {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 25px;
+}
+
+.lazer-item {
+  background: #d9d9d9;
+  border-radius: 15px;
+  width: 30%;
+}
+
+.lazer-item img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.lazer-itemTexto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.lazer-nome {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  padding: 20px 15px;
+}
+
+.lazer-btnVer {
+  background: #067300;
+  padding: 7px 30px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.lazer-btnVer {
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins";
+}

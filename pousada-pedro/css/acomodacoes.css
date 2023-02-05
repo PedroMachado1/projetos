@@ -1,0 +1,53 @@
+.acomodacoes {
+  background: #cccccc;
+  height: 100vh;
+}
+
+.acomodacoes-titulo {
+  text-align: center;
+  padding: 40px;
+  font-size: 2rem;
+  font-family: "Playfair Display";
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.item {
+  background: #d9d9d9;
+  border-radius: 15px;
+}
+
+.itemTexto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.itemTexto a {
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+
+.item img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.nomeCamp {
+  font-size: 1.5rem;
+  padding: 20px 15px;
+  font-family: "Poppins";
+}
+
+.btnVer {
+  background: #067300;
+  padding: 7px 30px;
+  display: inline-block;
+  border-radius: 15px;
+}
