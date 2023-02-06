@@ -50,6 +50,7 @@ a {
   color: #ffffff;
   border-bottom: 2px solid transparent;
   transition: 0.3s;
+  padding: 10px 0px;
 }
 
 .header-menu a:hover {
