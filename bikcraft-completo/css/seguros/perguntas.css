@@ -45,8 +45,17 @@
   transition: 0.3s;
 }
 
-.perguntas button:hover:after {
+.perguntas button:hover:after,
+.perguntas button[aria-expanded="true"]::after {
   transform: rotate(180deg);
+}
+
+.perguntas dd {
+  display: none;
+}
+
+.perguntas dd.ativa {
+  display: block;
 }
 
 .perguntas dd {
