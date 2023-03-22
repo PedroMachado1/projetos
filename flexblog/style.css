@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Superinfo */
+
+.superinfo-bg {
+  background: #122ab2;
+  color: #ffffff;
+}
+
+.superinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.superinfo p,
+.superinfo a {
+  margin: 0 10px 10px 10px;
+}
+
+.superinfo a {
+  color: #ffffff;
+}
+
+/* Menu */
+
+.menu-bg {
+  background: #2c70ff;
+  color: #ffffff;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu ul a {
+  font-size: 1.25rem;
+  display: block;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.menu ul a:hover {
+  color: #122ab2;
+}
+
+.menu a {
+  color: #ffffff;
+}
+
+.menu-logo a {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* Introdução */
+
+.introducao {
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+/* Sobre */
+
+.sobre {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  border-top: solid 2px #2c70ff;
+  border-bottom: solid 2px #2c70ff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+
+.sobre-info p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+  flex-wrap: wrap;
+}
+
+/* Produtos */
+
+.produtos {
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.produtos h1 {
+  font-size: 3rem;
+  margin: 0 10px 60px 10px;
+}
+
+.produtos-container {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.produtos-item {
+  flex: 1 1 175px;
+  margin: 10px;
+}
+
+.produtos-item h2 {
+  font-size: 3rem;
+  color: #a4a4a4;
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.purple {
+  border-top: 8px solid #ae81ff;
+}
+ 
+.pink {
+  border-top: 8px solid #f9265e;
+}
+.blue {
+  border-top: 8px solid #66d9eb;
+}
