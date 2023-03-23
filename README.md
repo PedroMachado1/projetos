@@ -11,3 +11,7 @@ Qrcode-frontendmentor: https://pedromachado1.github.io/projetos/qr-code-componen
 Portfolio: https://pedromachado1.github.io/projetos/portfolio/
 
 Pousada-Pedro: https://pedromachado1.github.io/projetos/pousada-pedro/
+
+Bikcraft-completo: https://pedromachado1.github.io/projetos/bikcraft-completo
+
+FlexBlog: https://pedromachado1.github.io/projetos/flexblog
