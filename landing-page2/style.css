@@ -4,11 +4,100 @@
   box-sizing: border-box;
 }
 
-.container {
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.principal-bg {
+  background: url("./components/images/fundo-low-exposure.jpg");
+  background-position: bottom;
+}
+
+@media (max-width: 800px) {
+  .principal-bg {
+    background-position-x: -800px;
+  }
+}
+
+.principal {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  justify-content: center;
   align-items: center;
-  min-width: 100vw;
+  gap: 30px;
+  padding-top: 100px;
+}
+
+.texto1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto1 h1 {
+  margin: 0;
+}
+
+.texto1 p {
+  font-size: 1.5rem;
+  max-width: 700px;
+  text-align: center;
+}
+
+.botao1 {
+  width: 130px;
+  background: #ff3434;
+  margin-bottom: 50px;
+  border: none;
+}
+
+.contato {
+  max-width: 960px;
+  margin: 30px auto;
+}
+
+.contato p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.form {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  gap: 10px;
+}
+
+.botao2 {
+  background: #ff3434;
+  margin-bottom: 20px;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    padding: 0 20px;
+  }
+}
+
+.redes {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redes-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.redes-item {
+  cursor: pointer;
 }

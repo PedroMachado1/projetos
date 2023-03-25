@@ -1,56 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@picocss/pico/css/pico.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
-    <title>Kofy</title>
+    <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <section class="principal-bg">
-        <section class="principal">
-          <div class="logo-img">
-            <img src="./components/images/Logo.svg" alt="Kofy" />
+    <div>
+      <div class="principal-bg">
+        <div class="principal">
+          <div class="logo">
+            <img src="./components/images/Logo.svg" alt="" />
           </div>
-          <div class="corpo">
-            <h1 class="titulo">Em Breve</h1>
-            <h2 class="descricao">
+          <div class="texto1">
+            <h1>EM BREVE</h1>
+            <p>
               Estamos trabalhando duro para proporcionar uma experiencia
-              incrivel para voce
-            </h2>
-
-            <a href="./">ME AVISE</a>
+              incrivel para você
+            </p>
           </div>
-        </section>
-      </section>
-      <section class="contato-bg">
-        <section class="contato">
-          <h3>
+
+          <button type="submit" class="botao1">ME AVISE</button>
+        </div>
+      </div>
+
+      <div class="contato-bg">
+        <div class="contato">
+          <p>
             Quer saber mais sobre nós, conte-nos sobre o seu projeto ou apenas
             para dizer olá? Entre em contato conosco e retornaremos o mais
             rápido possível.
-          </h3>
-          <article class="redes">
-            <div class="insta">
-              <a href=""
-                ><img src="./components/images/insta-icon.svg" alt=""
-              /></a>
-            </div>
-            <div class="face">
-              <a href=""
-                ><img src="./components/images/face-icon.svg" alt=""
-              /></a>
-            </div>
-            <div class="twitter">
-              <a href=""
-                ><img src="./components/images/twitter-icon.svg" alt=""
-              /></a>
-            </div>
-          </article>
-        </section>
-      </section>
+          </p>
+          <form class="form">
+            <input type="text" placeholder="Nome" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <button type="submit" class="botao2">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="redes">
+        <h5>Nossas redes sociais!</h5>
+        <div class="redes-container">
+          <div class="redes-item">
+            <img src="./components/images/insta-icon.svg" alt="" />
+          </div>
+          <div class="redes-item">
+            <img src="./components/images/face-icon.svg" alt="" />
+          </div>
+          <div class="redes-item">
+            <img src="./components/images/twitter-icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
