@@ -15,3 +15,5 @@ Pousada-Pedro: https://pedromachado1.github.io/projetos/pousada-pedro/
 Bikcraft-completo: https://pedromachado1.github.io/projetos/bikcraft-completo
 
 FlexBlog: https://pedromachado1.github.io/projetos/flexblog
+
+Landing-page2: https://pedromachado1.github.io/projetos/landing-page2
