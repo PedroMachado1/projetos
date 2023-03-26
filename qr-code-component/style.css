@@ -54,3 +54,10 @@ h1 {
   border: 2px solid red;
   border-radius: 14px;
 } */
+
+@media (max-width: 800px){
+  .container{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
